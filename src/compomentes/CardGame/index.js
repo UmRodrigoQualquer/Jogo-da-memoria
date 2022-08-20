@@ -3,7 +3,7 @@ import "./style.css";//esse import só é possível por causa da biblioteca que 
 function CardGame() {
     return `
     <article class = "card-game">
-        <img src="imagens/card.png" alt="logo da alura">
+        <img src="imagens/alura-pixel.png" alt="logo da alura">
     </article>
     `;
 }
