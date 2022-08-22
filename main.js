@@ -14,4 +14,4 @@ $root.insertAdjacentHTML(
         ${ScoreBoard()} 
         ${ BoardGame(6)}
        ` 
-        );
+        ); 
