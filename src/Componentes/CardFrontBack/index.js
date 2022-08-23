@@ -4,9 +4,13 @@ import"./style.css"
 function cardFrontBack () {
     return /*html*/`
     <article class = "card-front-back">
+        <div class="card -front">
         ${CardGame()}
+        </div>
+        
+        <div class="card -back">
         ${CardGame("javascript", "logo do javascript")}
-        ${CardGame("css", "logo do css")}
+        </div>
 
     </article>
     `
