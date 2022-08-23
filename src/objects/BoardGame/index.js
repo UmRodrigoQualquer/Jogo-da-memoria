@@ -1,5 +1,5 @@
 import "./style.css";
-import cardFrontBack from "../../Compomentes/CardFrontBack"
+import cardFrontBack from "../../Componentes/CardFrontBack"
 
 function BoardGame(amountCards) {
     const $htmlcardFrontBack = cardFrontBack();
