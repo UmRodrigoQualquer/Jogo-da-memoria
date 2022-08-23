@@ -1,17 +1,18 @@
 import "./src/styles/settings/colors.css";// Aqui to importando para o js as cores que o css gera.
 import "./src/styles/generic/reset.css";
 import "./src/styles/elements/base.css";
-import BoardGame from "./src/Objects/BoardGame";
 import ScoreBoard from "./src/Objects/ScoreBoard";
+import BoardGame from "./src/Objects/BoardGame";
+
 
 
 const $root = document.querySelector("#root");
-const $htmlBoardGame = BoardGame(6);
+
 
 
 $root.insertAdjacentHTML(
-    "afterbegin",`
+    "beforeend",`
         ${ScoreBoard()} 
-        ${ BoardGame(6)}
+        ${BoardGame(2)}
        ` 
         ); 
